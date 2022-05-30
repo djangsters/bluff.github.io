@@ -1,0 +1,13 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr [start] auto [end] 1fr;
+}
+
+.content {
+    grid-column: start/end;
+    max-width: 800px;
+}
+
+.center {
+    text-align: center;
+}
